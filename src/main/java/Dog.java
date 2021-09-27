@@ -1,7 +1,4 @@
 public class Dog implements Domesticatable, Tradable {
-    public Dog() {
-
-    }
 
     @Override
     public String sound() {

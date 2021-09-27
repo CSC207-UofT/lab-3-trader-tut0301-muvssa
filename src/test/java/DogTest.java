@@ -17,7 +17,7 @@ public class DogTest {
     }
 
     @Test(timeout = 50)
-    public void sound() {
+    public void testSound() {
         assertEquals("Bark", d.sound());
     }
 
