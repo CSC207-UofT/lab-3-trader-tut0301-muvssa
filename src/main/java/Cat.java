@@ -7,11 +7,9 @@ public class Cat implements Tradable, Domesticatable {
     }
 
     @Override
-    /*
-    This method returns an int
-     */
+    /* This method returns a String*/
     public String sound()
     {
-        return "BARK BOWOWOWOWOW!";
+        return "Meow!";
     }
 }
