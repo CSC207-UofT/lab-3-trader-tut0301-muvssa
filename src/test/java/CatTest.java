@@ -15,4 +15,7 @@ public class CatTest {
     public void TestSound() {
         assertEquals("Meow!", c.sound());
     }
+
+    @Test(timeout = 50)
+    public void TestGetPrice() { assertEquals(1000, c.getPrice());}
 }
