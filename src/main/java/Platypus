@@ -1,0 +1,19 @@
+public class Platypus implements Domesticatable, Tradable {
+  public Platypus() {
+  }
+  
+  @override
+  public String sounds() {
+    return "Grrrrrr";
+  }
+  
+  @override
+  public int getPrice() {
+    return 0;
+  }
+  
+  @override
+  public String toString() {
+    return "I don't do much";
+  }
+}
